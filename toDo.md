@@ -13,5 +13,5 @@
 - improve linear algebra skills 
 - improve coding skills
 - figure out how to actually build something meaningful with the stuff I'm learning
-- find people to build whatever those things end-up being with
+- find people to build with
 - and more!
