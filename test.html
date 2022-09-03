@@ -28,20 +28,21 @@
          -webkit-transform: scaleX(-1);
          transform: scaleX(-1);
       }
+      script {
+        font-size: small;
+      }
     </style>
   </head>
   <body>
     <div style="text-align:right; padding-left: 70px; padding-right: 70px; padding-top: 35px; padding-bottom:
     45px; border: 1px solid rgb(0, 0, 0);">
         <img style="border:2px ridge gold;" src="aiTulips.png" alt="Flowers2" width="50" height="50">
-    <div style="text-align:left">
-        <script>
-            date = new Date();
-            year = date.getFullYear();
-            month = date.getMonth() + 1;
-            day = date.getDate();
-            document.getElementById("current_date").innerHTML = month + "/" + day + "/" + year;
+    <div style="text-align:left; font-size: 0.55em; color: rgb(132, 64, 151);">
+        <script >date = new Date().toLocaleDateString();
+            document.write(date);
             </script>
+            </div>
+    <div style="text-align:left;">
         <p>
         <br>
         <br>
@@ -64,6 +65,8 @@
         <br>
         <br>
         Thanks for stopping by :)   
+        <br>
+        <br>
         <br>
         <br>
         <br>
